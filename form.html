@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <head>
+  <script src="form.js"></script>
+  </head>
+<main>
+
+  <header class="header">
+<h1>DEVELOPER REGISTRATION FORM</h1>
+  </header>
+
+ <form class="card" onsubmit="return false;">
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+  <br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" placeholder="example@email.com"><br>
+
+ <label for="occupation">Occupation</label>
+ <input type="text" id="occupation" name="occupation" placeholder=" Java Developer"><br>
+
+  <label for="country">Country:</label>
+  <select id="occupation" name="country">
+   <option value="none" selected disabled>Select Country</option>
+   <option value="south africa">South Africa</option>
+  </select>
+ 
+
+  </form>
+  <input type="submit" onclick="getFormValues()"></input>
+
+</main>
+
+</body>
+
+</html>
+
+
+

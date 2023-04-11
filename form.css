@@ -1,0 +1,52 @@
+< ! DOCTYPE html>
+<html>
+<style>
+
+input[type=text], select{
+width: 100%;
+padding: 12vpx 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit]: hover{
+background-color: #45a049;
+}
+
+div {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+</style>
+<body>
+
+<div>
+<form action="/action_page.php">
+<label for="fname">First name:</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+  <br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" placeholder="example@email.com"><br>
+
+ <label for="occupation">Occupation</label>
+ <input type="text" id="occupation" name="occupation" placeholder=" Java Developer"><br>
+
+  <label for="country">Country:</label>
+  <select id="occupation" name="country">
+   <option value="none" selected disabled>Select Country</option>
+   <option value="south africa">South Africa</option>
+  </select>
+</form>
+</div>
+
+</body>
+
+</html>
